@@ -74,6 +74,7 @@ def limpamesa(mesa):
 def primeiro():
     global jogador
     while jogador.upper() != 'X' and jogador.upper() != 'O':
+        cls()
         print('Escolha entre X e O para iniciar o jogo!')
         jogador = input().upper()
 
